@@ -1,7 +1,7 @@
 # Semantic Search based News Recommendation and Wikipedia Articles Question Answering System
 
 Main Notebook: https://www.kaggle.com/code/shirshmall/project-ir-semantic-search-summarize-qna/notebook
-Supporting Notebooks: 
+
 
 Failed Attempts and Previous Codes:
 1. https://www.kaggle.com/code/shirshmall/project-ir-part-1-keywords-extraction/notebook
