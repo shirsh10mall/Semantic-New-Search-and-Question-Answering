@@ -53,9 +53,12 @@ The project extends its functionality beyond news articles by incorporating a ro
 ## Model Deployment
 To make the Semantic Search-based News Recommendation and Question Answering System accessible and user-friendly, the project culminates in the creation of an interactive app. Gradio, a Python library for creating UIs, is utilized to develop an intuitive and responsive user interface. This app empowers users to effortlessly navigate news articles, access summaries, and receive answers to their questions.
 
-<br>
+<be>
+
 ![example 3](https://github.com/shirsh10mall/Semantic-News-Search-and-Question-Answering-Wiki-Articles/assets/87264071/40867f26-c0ee-44b5-b5a6-5f79c8180983)
+
 ![example 2](https://github.com/shirsh10mall/Semantic-News-Search-and-Question-Answering-Wiki-Articles/assets/87264071/b801fd7c-39e1-4f1e-a645-c646753f9556)
+
 ![example 1](https://github.com/shirsh10mall/Semantic-News-Search-and-Question-Answering-Wiki-Articles/assets/87264071/8010036d-61df-4863-8b3b-a5d78356dfbf)
 <br>
 
