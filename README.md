@@ -66,6 +66,9 @@ To make the Semantic Search-based News Recommendation and Question Answering Sys
 In an era of information overload, the Semantic Search-based News Recommendation and Wikipedia Articles Question Answering System emerges as a beacon of innovation. By combining semantic search, summarization, and question answering techniques, this project equips users with a versatile tool to explore news articles and access reliable information. This system not only enhances user experience but also showcases the transformative potential of NLP in catering to the evolving needs of information seekers.
 
 
+
+## Failed Process:
+
 **Failed Process 1: News Search based on Keywords and Summarization**
 
 1. **Drop Irrelevant and Repetitive Columns**: Initially, attempted to streamline the dataset by removing unnecessary and duplicated columns to simplify subsequent processes.
