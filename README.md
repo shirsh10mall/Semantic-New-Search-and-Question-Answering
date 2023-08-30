@@ -2,13 +2,6 @@
 
 Main Notebook: https://www.kaggle.com/code/shirshmall/project-ir-semantic-search-summarize-qna/notebook
 
-
-Failed Attempts and Previous Codes:
-1. https://www.kaggle.com/code/shirshmall/project-ir-part-1-keywords-extraction/notebook
-2. https://www.kaggle.com/code/shirshmall/task-ir-part-2-search-and-summarize-keywords
-3. https://www.kaggle.com/code/shirshmall/fine-tuning-t5-for-cnn-news-articles-summarization 
-4. https://www.kaggle.com/code/shirshmall/project-ir-part-4-faiss-semantic-search
-
 Dataset: 
 1. Web-Scraped Reuters News Articles: https://www.kaggle.com/datasets/shirshmall/reuters-news-article-and-summary-web-scraping
 2. CNN Daily News Articles Embedding: https://www.kaggle.com/code/shirshmallwork/project-ir-add-embeddings/output
@@ -86,3 +79,10 @@ In an era of information overload, the Semantic Search-based News Recommendation
 3. **Document Matrix and Inverted Index Approach**: Experimented with creating a document-term matrix and building an inverted index for words in the news articles. This approach aimed to enable word-level matching for efficient keyword-based searches.
 
 In both failed attempts, the challenges lay in achieving accurate keyword extraction and developing efficient search mechanisms. These challenges resulted in suboptimal search results and inadequacies in providing meaningful news recommendations. As a result, the decision was made to pivot the project towards a Semantic Search-based approach, which proved to be more effective in delivering relevant news articles and information to users. This pivot enabled the project to overcome the limitations faced in the failed processes and achieve its objectives more successfully.
+
+
+Failed Attempts and Previous Codes:
+1. https://www.kaggle.com/code/shirshmall/project-ir-part-1-keywords-extraction/notebook
+2. https://www.kaggle.com/code/shirshmall/task-ir-part-2-search-and-summarize-keywords
+3. https://www.kaggle.com/code/shirshmall/fine-tuning-t5-for-cnn-news-articles-summarization 
+4. https://www.kaggle.com/code/shirshmall/project-ir-part-4-faiss-semantic-search
