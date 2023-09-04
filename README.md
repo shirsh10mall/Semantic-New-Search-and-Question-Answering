@@ -1,13 +1,8 @@
 # Semantic Search based News Recommendation and Wikipedia Articles Question Answering System
 
+
 Main Notebook: https://www.kaggle.com/code/shirshmall/project-ir-semantic-search-summarize-qna/notebook
 
-Dataset: 
-1. Web-Scraped Reuters News Articles: https://www.kaggle.com/datasets/shirshmall/reuters-news-article-and-summary-web-scraping
-2. CNN Daily News Articles Embedding: https://www.kaggle.com/code/shirshmallwork/project-ir-add-embeddings/output
-
-
-# Semantic Search-based News Recommendation and Wikipedia Articles Question Answering System
 
 ## Introduction
 In the era of information explosion, finding relevant news articles and obtaining accurate answers to questions from a sea of online content can be challenging. This project aims to address this issue by creating an innovative Semantic Search-based News Recommendation and Wikipedia Articles Question Answering System. By leveraging cutting-edge natural language processing (NLP) techniques, this system provides users with an efficient and user-friendly way to explore news articles and access accurate information.
@@ -17,6 +12,11 @@ To build a robust and diverse system, data collection is essential. This project
 1. **Web Scraped Reuters News Articles**: The project starts by scraping news articles from Reuters, a reputable news agency. These articles encompass full-length news pieces alongside corresponding summaries. The scraping process is facilitated by the Selenium library, allowing the collection of up-to-date and relevant news content.
 2. **CNN News Articles**: In addition to Reuters, the CNN News Articles dataset from Hugging Face datasets is incorporated. This dataset adds depth and variety to the range of news content.
 3. **Dynamic Wikipedia Articles Extraction**: To further enrich the user experience, Wikipedia articles are extracted dynamically using the BeautifulSoup and Wikipedia Python packages. This ensures that users have access to authoritative and comprehensive information.
+
+Dataset: 
+1. Web-Scraped Reuters News Articles: https://www.kaggle.com/datasets/shirshmall/reuters-news-article-and-summary-web-scraping
+2. CNN Daily News Articles Embedding: https://www.kaggle.com/code/shirshmallwork/project-ir-add-embeddings/output
+
 
 **Semantic Search Approach**
 Embracing advanced Natural Language Processing techniques, the project's Semantic Search approach enhances news retrieval. Utilizing BART embeddings, the system captures article semantics, enabling a FAISS index for precise semantic search, presenting users contextually aligned news articles.
@@ -57,6 +57,29 @@ To make the Semantic Search-based News Recommendation and Question Answering Sys
 
 ## Conclusion
 In an era of information overload, the Semantic Search-based News Recommendation and Wikipedia Articles Question Answering System emerges as a beacon of innovation. By combining semantic search, summarization, and question answering techniques, this project equips users with a versatile tool to explore news articles and access reliable information. This system not only enhances user experience but also showcases the transformative potential of NLP in catering to the evolving needs of information seekers.
+
+## Infrastructure and Latency Requirements
+
+### Data Storage Requirement
+- **Data Storage:** The system requires a minimum of 8 GB of storage capacity to accommodate the news dataset and pre-trained models during operation.
+
+### Internet Connectivity
+- **Internet Connection:** An active internet connection is essential for the system. It allows for a maximum connection time of 10 seconds per query, primarily used to extract Wikipedia articles and enhance the user's experience with authoritative information.
+- **Data Usage Control:** To optimize data transfer, the system adheres to a strict data consumption limit of 15 MB per query.
+
+### Application Startup
+- **Startup Time:** Initiating the application on a single CPU setup requires approximately 2 seconds. This includes model loading, initialization, and the establishment of the necessary runtime environment.
+
+### Semantic Search Latency
+- **Semantic Search Response:** The system aims for low-latency semantic search, with response times in the range of seconds. This involves importing the model for semantic search and applying semantic search algorithms to the locally stored news dataset.
+
+### Summarization Response Time
+- **Summarization Time:** Generating concise summaries of individual news articles typically ranges from 0.5 to 4 seconds. Response time varies depending on the length of the article and the complexity of the summarization model.
+
+### Question Answering Latency
+- **Question Answering Time:** The question answering component exhibits relatively high response times, typically ranging from 30 to 80 seconds. This duration encompasses various tasks, including importing the tokenizer and the pre-trained QnA model (based on the user's choice), extracting Wikipedia articles, preprocessing and cleaning articles, extracting relevant sentences or paragraphs based on semantic similarity to the input query, and finally, generating answers for the user's input questions using the extracted context.
+
+These requirements are designed for a single CPU setup, with a strong emphasis on optimizing code and algorithms to deliver a responsive user experience while respecting resource limitations.
 
 
 
